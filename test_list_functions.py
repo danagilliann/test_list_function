@@ -1,7 +1,7 @@
 import student_file # change accordingly if desired
 
 class TestClass:
-    test_list = [5, "9", -2, 1, 3, True, 3]
+    test_list = [5, 9, "9", -2, 1, 3, True, 3]
     test_max = [-9, -1, -5]
 
     def test_listlen(self):
