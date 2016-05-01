@@ -2,12 +2,13 @@ import student_file # change accordingly if desired
 
 class TestClass:
     test_list = [5, "9", -2, 1, 3, True, 3]
-    
+    test_max = [-9, -1, -5]
+
     def test_listlen(self):
         assert student_file.listlen(self.test_list) == len(self.test_list)
     
     def test_listmax(self):
-        assert student_file.listmax(self.test_list) == max(self.test_list)
+        assert student_file.listmax(self.test_max) == max(self.test_max)
     
     def test_listcopy(self):
         assert student_file.listcopy(self.test_list) == self.test_list
